@@ -22,9 +22,9 @@ namespace SolicitudPermisos.Domain.Entities
         public string apellidos { get; set; }
 
         [Column("p_tipo")]
-        public byte tipo { get; set; }
+        public int tipo { get; set; }
 
         [Column("p_fecha")]
-        public DateTime fecha { get; set; }
+        public DateTime ? fecha { get; set; }
     }
 }

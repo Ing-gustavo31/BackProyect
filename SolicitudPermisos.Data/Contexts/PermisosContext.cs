@@ -10,12 +10,12 @@ namespace SolicitudPermisos.Data.Contexts
 {
     public class PermisosContext : DbContext
     {
-        public PermisosContext() : base("name=ConnectionDefault")
+        public PermisosContext() : base("name=DefaultConnection")
         {
 
         }
 
-        DbSet<Permiso> Permisos { get; set; }
-        DbSet<TipoPermiso> TipoPermisos { get; set; }
+        public DbSet<Permiso> Permisos { get; set; }
+        public DbSet<TipoPermiso> TipoPermisos { get; set; }
     }
 }

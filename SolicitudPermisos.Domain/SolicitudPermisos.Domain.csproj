@@ -45,10 +45,10 @@
     <Compile Include="Entities\Permiso.cs" />
     <Compile Include="Entities\TipoPermiso.cs" />
     <Compile Include="Interfaces\ISolicitudPermisosRepository.cs" />
+    <Compile Include="Models\PermisosModel.cs" />
+    <Compile Include="Models\TipoPermisosModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
